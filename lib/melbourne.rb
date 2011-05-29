@@ -1,14 +1,5 @@
-base = File.expand_path "../", __FILE__
-
-unless Object.const_defined?(:RUBY_ENGINE) && RUBY_ENGINE == "rbx"
-  ext_dir = "ruby"
-  require base + "/mri_bridge"
-else
-  ext_dir = Object.const_get :RUBY_ENGINE
-end
-
-require base + "/ext/melbourne/#{ext_dir}/melbourne"
-require base + "/melbourne/processor"
+require Rubinius::PARSER_EXT_PATH
+require Rubinius::PARSER_PATH + "/processor"
 
 class String
   def to_ast(name="(eval)", line=1)
@@ -125,5 +116,13 @@ module Rubinius
       end
       nil
     end
+  end
+
+  class Melbourne19 < Melbourne
+    alias_method :file_to_ast, :file_to_ast_19
+    alias_method :string_to_ast, :string_to_ast_19
+  end
+
+  class Melbourne20 < Melbourne19
   end
 end
