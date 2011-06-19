@@ -7,12 +7,12 @@ next_url: what-is-rubinius
 ---
 
 1. [Qu'est-ce que Rubinius?](/doc/fr/what-is-rubinius/)
-1. [*Démarrer](/doc/fr/getting-started/)
-    1. [*Prérequis](/doc/fr/getting-started/requirements/)
-    1. [*Compiler](/doc/fr/getting-started/building/)
-    1. [*Lancer Rubinius](/doc/fr/getting-started/running-rubinius/)
-    1. [*Dépannage](/doc/fr/getting-started/troubleshooting/)
-1. [*Contribuer](/doc/fr/contributing/)
+1. [Démarrer](/doc/fr/getting-started/)
+    1. [Prérequis](/doc/fr/getting-started/requirements/)
+    1. [Compiler](/doc/fr/getting-started/building/)
+    1. [Lancer Rubinius](/doc/fr/getting-started/running-rubinius/)
+    1. [Dépannage](/doc/fr/getting-started/troubleshooting/)
+1. [Contribuer](/doc/fr/contributing/)
     1. [*Communication](/doc/fr/contributing/communication/)
     1. [*Style de Code](/doc/fr/contributing/style-guide)
 1. [*Ruby](/doc/fr/ruby/)

@@ -10,7 +10,7 @@ next_url: how-to/write-a-ruby-spec
 Le gestionnaire de ticket Rubinius se trouve à l'adresse <http://github.com/evanphx/rubinius/issues>.
 
 Pour être utile, un ticket doit être concis, précis et permettre d'agir.
-S'il ne l'est pas, le ticket va engendrer des aller-tours, des
+S'il ne l'est pas, le ticket va engendrer des allers-retours, des
 discussions, et n'avancera pas. De la même manière, les tickets doivent
 appartir aux catégories ci-dessous:
 
@@ -37,7 +37,7 @@ invalide. Pour autant créer un ticket n'est pas approprié.
 
   1. Vérifiez et revérifiez.
 
-     1. Recompiler entièrement ('rake clean; rake') après 'git pull', ou après avoir clôné.
+     1. Recompilez entièrement (`rake clean; rake`) après `git pull`, ou après avoir clôné.
      2. Lisez la section [Dépannage](/doc/fr/getting-started/troubleshooting) pour vérifier si vous trouvez une solution au problème.
      3. Lisez [Tests](/doc/fr/specs/).
 
@@ -45,7 +45,7 @@ invalide. Pour autant créer un ticket n'est pas approprié.
 
   3. Tagguez votre ticket de manière appropriée.
 
-  4. Donnez assez de détails à proopos du problème.
+  4. Donnez assez de détails à propos du problème.
 
      * La ligne de commande qui invoque le programme
      * La trace d'exécution ou la différence entre le résultat attendu et le résultat actuel.
